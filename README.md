@@ -8,6 +8,16 @@ The workbook analyzes business performance across **8,078 service line items** a
 
 Customer names were replaced with anonymous customer IDs during data preparation to protect personal privacy while preserving the analytical value of the dataset.
 
+## Dashboard Preview
+
+### Dashboard View 1
+
+![Easy Laundry Business Performance Dashboard Preview 1](./Screenshot%20Laundry%20Performance%20Dashboard%201.png)
+
+### Dashboard View 2
+
+![Easy Laundry Business Performance Dashboard Preview 2](./Screenshot%20Laundry%20Performance%20Dashboard%202.png)
+
 ## Business Problem
 
 The original application export was not ready for direct analysis because:
@@ -36,6 +46,22 @@ This project solves those problems by preserving the raw source data, creating a
 | Main tool | Microsoft Excel |
 
 > **Privacy note:** Customer names in the source data were anonymized into labels such as `Customer_001`, `Customer_002`, and so on. No real customer names are presented in the analytical or dashboard sheets.
+
+## Dataset Preview
+
+The following screenshots provide a visual preview of the dataset and supporting data-preparation structure used in the workbook.
+
+### Dataset View 1
+
+![Easy Laundry Dataset Preview 1](./Dataset%20Laundry%201.png)
+
+### Dataset View 2
+
+![Easy Laundry Dataset Preview 2](./Dataset%20Laundry%202.png)
+
+### Dataset View 3
+
+![Easy Laundry Dataset Preview 3](./Dataset%20Laundry%203.png)
 
 ## Dashboard KPIs
 
@@ -212,6 +238,11 @@ The dashboard is primarily **formula-driven**. PivotTables are not used as its m
 ```text
 Easy-Laundry-Business-Performance-Dashboard/
 ├── Easy Laundry - Business Performance Dashboard.xlsx
+├── Screenshot Laundry Performance Dashboard 1.png
+├── Screenshot Laundry Performance Dashboard 2.png
+├── Dataset Laundry 1.png
+├── Dataset Laundry 2.png
+├── Dataset Laundry 3.png
 └── README.md
 ```
 
